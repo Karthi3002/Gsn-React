@@ -145,22 +145,26 @@
     {
       "img": "img/team/01.jpg",
       "name": "John Doe",
-      "job": "Director"
+      "job": "Director",
+      "character": "img/team/05.png"
     },
     {
       "img": "img/team/02.jpg",
       "name": "Mike Doe",
-      "job": "Senior Designer"
+      "job": "Senior Designer",
+      "character": "img/team/06.png"
     },
     {
       "img": "img/team/03.jpg",
       "name": "Jane Doe",
-      "job": "Senior Designer"
+      "job": "Senior Designer",
+      "character": "img/team/07.png"
     },
     {
       "img": "img/team/04.jpg",
       "name": "Karen Doe",
-      "job": "Project Manager"
+      "job": "Project Manager",
+      "character": "img/team/08.png"
     }
   ],
   "Contact": {
@@ -192,5 +196,25 @@
       "title": "Lorem ipsum",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     }
-  ]
+  ],
+    "Blog": [
+      {
+        "title": "Farming Tips for Beginners",
+        "snippet": "Learn the basics of modern farming with our step-by-step guide...",
+        "image": "img/blog/farming-tips.jpg",
+        "link": "#"
+      },
+      {
+        "title": "How to Market Your Produce",
+        "snippet": "Selling your crops effectively can boost your profits. Here's how...",
+        "image": "img/blog/market-produce.jpg",
+        "link": "#"
+      },
+      {
+        "title": "Best Crops for Summer",
+        "snippet": "Discover which crops thrive best in hot weather conditions...",
+        "image": "img/blog/summer-crops.jpg",
+        "link": "#"
+      }
+    ]
 }

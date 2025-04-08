@@ -4,24 +4,24 @@ export const Team = (props) => {
   return (
     <div id="team" className="text-center">
       <div className="container">
-        <div className="col-md-8 col-md-offset-2 section-title">
+        <div className="section-title">
           <h2>Meet the Team</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
             dapibus leonec.
           </p>
         </div>
-        <div id="row">
+        <div className="team-container">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">
-                  <div className="thumbnail">
-                    {" "}
-                    <img src={d.img} alt="..." className="team-img" />
-                    <div className="caption">
-                      <h4>{d.name}</h4>
-                      <p>{d.job}</p>
-                    </div>
+                <div key={`${d.name}-${i}`} className="card">
+                  <div className="wrapper">
+                    <img src={d.img} alt={d.name} className="cover-image" />
+                  </div>
+                  <img src={d.character} alt={d.name} className="character" />
+                  <div className="title">
+                    <h3>{d.name}</h3>
+                    <p>{d.job}</p>
                   </div>
                 </div>
               ))
